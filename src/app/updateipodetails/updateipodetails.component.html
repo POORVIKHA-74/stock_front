@@ -1,0 +1,50 @@
+<p>updateipodetails works!</p>
+<div>
+    <h3>
+        {{message}}
+    </h3>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12-col-sm-12 col-xs-12">
+            <h4 class="mt-4 mb-4">ADD IPO</h4>
+            <form>
+                <fieldset>
+                    <div class="form-group">
+                        <label for="companyname">companyname</label>
+                        <input type="text" name="companyname" id="companyname" class="form-control"
+                            placeholder="enter company name" >
+                    </div>
+                    <div class="form-group">
+                        <label for="stockexchange">stockexchange</label>
+                        <input type="text" name="stockexchange" id="stockexchange" class="form-control"
+                            placeholder="enter stockexchange name" >
+                    </div>
+                    <div class="form-group">
+                        <label for="pricepershare">pricepershare</label>
+                        <input type="text" name="pricepershare" id="pricepershare" class="form-control"
+                            placeholder="enter pricepershare" >
+                    </div>
+                    <div class="form-group">
+                        <label for="totalshares">totalshares</label>
+                        <input type="text" name="totalshares" id="totalshares" class="form-control"
+                            placeholder="enter totalshares" >
+                    </div>
+                    <div class="form-group">
+                        <label for="opendate">opendate</label>
+                        <input type="text" name="opendate" id="opendate" class="form-control"
+                            placeholder="enter opendate" >
+                    </div>
+                    <div class="form-group">
+                        <label for="remarks">remarks</label>
+                        <input type="text" name="remarks" id="remarks" class="form-control"
+                            placeholder="enter remarks" >
+                    </div>
+                    <div>
+                        <input class="btn btn-success" type="submit" name="submit" value="add" (click)="addiponow()">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>
